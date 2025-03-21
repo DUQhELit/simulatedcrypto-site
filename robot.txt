@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Allow Google to index JavaScript and CSS
+User-agent: Googlebot
+Allow: /*.css
+Allow: /*.js
+
+# Block unnecessary files (if needed)
+Disallow: /private/
+Disallow: /tmp/
+
+# Provide sitemap for better indexing
+Sitemap: https://simulatedcrypto.online/sitemap.xml
